@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 300px;
+            height: 100px;
+            background-color: salmon;
+            color: white;
+        }
+        #sample{
+            background-color: blueviolet;
+        }
+        #cal{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <p id="sample"></p>
+    <p id="cal"></p>
+        
+    <script>
+        var a=15;
+        var b=10;
+        var c;
+        c=a+b;
+        document.getElementById('sample').innerHTML="After adding value of a and b,the answer is:"+c;
+        const val1=100;
+        const val2=50;
+        let sum=val1+val2;
+        document.getElementById('cal').innerHTML="Sum = "+sum;
+         
+        
+
+    </script>
+    </div>
+</body>
+</html>
